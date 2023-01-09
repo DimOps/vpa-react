@@ -16,11 +16,11 @@ const Header = (props) => {
             <div>
                 <nav>
 
-                    {/* <button>My Vehicle</button>
+                    <button>My Vehicle</button>
                     <button>Vehicles</button>
                     <button>To Buy</button>
-                    <button>Login</button> */}
-                    {/* <button>Logout</button> */}
+                    <button>Login</button>
+                    <button>Logout</button>
 
                 </nav>
             </div>
