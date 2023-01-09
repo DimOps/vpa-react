@@ -1,0 +1,80 @@
+.ListItem {
+    background-color: rgb(98, 153, 185);
+    margin: 20px 30px;
+    max-width: fit-content;
+    min-height: 20vh;
+    max-height: fit-content;
+    border: solid;
+    border-radius: 10px;
+    color: antiquewhite;
+    text-align: center;
+    display: inline-block;
+}
+
+.ListItem div {
+    display: inline-block;
+}
+
+.ListItemTitle {
+    color: antiquewhite;
+    text-decoration: underline;
+}
+
+.ListItemTitle:hover {
+    color: rebeccapurple;
+}
+
+.Image {
+    height: 70px;
+    width: 100px;
+    margin: 10px;
+    display: block;
+    text-align: center;
+    border: 3px;
+    border-style: solid;
+}
+
+.LeftInfo {
+    text-align: center;
+    margin: 0px 20px 0px 20px;
+}
+
+.Info {
+    max-width: 500px;
+    margin: auto;
+    text-align: left;
+    vertical-align: top;
+}
+
+.Info article h4 {
+    margin-left: 10px;
+}
+
+.Btn {
+    border: solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    background-color: #475c79;
+    text-decoration: none;
+    font-size: medium;
+    color: antiquewhite;
+}
+
+.Btn:hover {
+    background-color: #265724;
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+.SecondaryDetails {
+    margin: 10px;
+}
+
+.SecondaryDetails span {
+    margin: 10px 10px;
+}
+
+.ListItemHr {
+    margin-left: 10px;
+}

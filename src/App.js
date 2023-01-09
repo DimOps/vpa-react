@@ -1,6 +1,8 @@
 import React from 'react';
 import Header from './components/Header/Header';
-import VehicleDetailsPage from './components/VehicleDetails/VehicleDetailsPage';
+// import VehicleDetailsPage from './components/VehicleDetails/VehicleDetailsPage';
+import VehicleListPage from './components/VehicleList/VehicleListPage';
+
 import './App.css';
 
 function App() {
@@ -11,7 +13,8 @@ function App() {
             <Header/>
             
             <main id="main-content">
-                <VehicleDetailsPage/>
+                <VehicleListPage/>
+                {/* <VehicleDetailsPage/> */}
             </main>
             
         </div>
