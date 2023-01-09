@@ -61,6 +61,7 @@ hr {
 
 .VehicleSections {
     margin: 10px 15px 20px 25px;
+    max-width: fit-content;
     background-color: #3f7e3c;
     border-radius: 5px;
     text-align: center;
@@ -68,7 +69,10 @@ hr {
 
 /* testing background colour #265724 */
 
-
+.SectionsInfo {
+    text-align: left;
+    margin: 5px 5px 10px 30px;
+}
 
 .VehicleSections article {
     display: inline-block;
@@ -83,6 +87,7 @@ hr {
     width: fit-content;
     display: inline-block;
     vertical-align: top;
+    font-size: large;
     
 }
 
@@ -107,11 +112,14 @@ hr {
     height: fit-content;
     font-size: small;
     border: 1px;
-    border-style: solid;
+    border-style:solid;
+    border-color: #3f7e3c;
 }
 
 .AddBtn:hover {
     background-color: #265724;
     color: antiquewhite;
     cursor: pointer;
+    border: 1px;
+    border-style: solid;
 }

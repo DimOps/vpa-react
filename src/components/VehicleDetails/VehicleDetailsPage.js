@@ -5,7 +5,7 @@ const VehicleDetailsPage = () => {
 
     return (
         <div className={styles.Details}>
-            <div className="UpperSection">
+            <section className="UpperSection">
                 <div className={styles.LeftInfo}>
                     <img className={styles.Image} src="logo192.png" alt='Your Car Here' />
                     <Link>
@@ -56,8 +56,12 @@ const VehicleDetailsPage = () => {
                         </Link>
                     </div>
                 </div>
-            </div>
-            <div className={styles.VehicleSections}>
+            </section>
+            <article className={styles.SectionsInfo}>
+                Vehicle's sections
+            </article>
+            <section className={styles.VehicleSections}>
+
                 <article>
                     <p>
                         Chassis <Link><button className={styles.AddBtn}>add</button></Link>
@@ -112,7 +116,7 @@ const VehicleDetailsPage = () => {
                     </ul>
 
                 </article>
-            </div>
+            </section>
         </div>
     );
 
