@@ -1,0 +1,47 @@
+.LoginWrapper {
+    background-color: rgb(98, 153, 185);
+    margin: 20px 30px;
+    max-width: fit-content;
+    min-height: 20vh;
+    max-height: fit-content;
+    border: solid;
+    border-radius: 10px;
+    color: antiquewhite;
+    text-align: center;
+    display: inline-block;
+}
+
+.LoginWrapper div {
+    display: inline-block;
+}
+
+.LoginTitle {
+    color: antiquewhite;
+}
+
+article h4 {
+    margin-left: 10px;
+}
+
+.Btn {
+    border: solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    background-color: #475c79;
+    text-decoration: none;
+    font-size: medium;
+    color: antiquewhite;
+}
+
+.Btn:hover {
+    background-color: #265724;
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+form {
+    text-align: center;
+    display: inline-block;
+    margin: 10px 30px;
+}
